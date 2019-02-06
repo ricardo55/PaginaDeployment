@@ -10,6 +10,11 @@ before_script:
 
 script:
   - echo "Hola Mundo"
+  - pwd
+  - ls -la
+  - date
+  - cd hola
+  - echo "Finalizar"
 
 notifications:
 email: false
